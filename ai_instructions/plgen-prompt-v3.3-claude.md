@@ -145,6 +145,7 @@ Standard:      provenancelabel.org
 
 - `plgen init` — open a new session
 - `plgen generate` — close session and produce the label
+- `plgen coach` — evaluate the split and deliver feedback (run after plgen generate)
 - `plgen register` — register the generated label
 - `plgen status` — show current session state and what's been tracked
 - `plgen validate` — check a label for completeness

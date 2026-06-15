@@ -1,5 +1,5 @@
 # PLGen Dashboard
-Last updated: 2026-06-12
+Last updated: 2026-06-15
 
 ---
 
@@ -8,7 +8,7 @@ Last updated: 2026-06-12
 | Command | Status | Description |
 |---|---|---|
 | `plgen init` | Live | Opens a tracked session |
-| `plgen generate` | Live | Produces the label + PLGT1 token |
+| `plgen generate` | Live | Produces the label (PLGen v1.2 JSON) |
 | `plgen coach` | Built — pending deploy | Evaluates the split, delivers feedback |
 | `plgen register` | Live | Posts label to registry |
 | `plgen validate` | Live | Checks label integrity |
@@ -40,10 +40,13 @@ Last updated: 2026-06-12
 
 | File | Version | Status |
 |---|---|---|
-| `ai_instructions/plgen-prompt-v1.md` | v1 | Superseded |
-| `ai_instructions/plgen-prompt-v2.md` | v2 | Superseded |
-| `ai_instructions/plgen-prompt-v3.md` | v3.1 | Current — `plgen generate` |
+| `ai_instructions/plgen-prompt-v3.3-claude.md` | v3.3 | **Current** — PLGen v1.2 schema, `plgen init/generate/register` |
 | `ai_instructions/plgen-coach-v1.md` | v1.0 | Built — pending deploy |
+| `superseded/plgen-prompt-v3.md` | v3.1 | Superseded by v3.3 |
+| `superseded/plgen-prompt-v1.md` | v1 | Superseded |
+| `superseded/plgen-prompt-v2.md` | v2 | Superseded |
+| `superseded/prompts-skill.md` | v1.1 | Superseded — javascript_tool arch replaced |
+| `superseded/prompts-claude-project-instructions.md` | — | Superseded — earlier project instructions approach |
 
 ---
 
