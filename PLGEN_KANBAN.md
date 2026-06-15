@@ -43,6 +43,7 @@ Last updated: 2026-06-12
 
 ## Backlog
 
+- [ ] **PLGen Skills System** — `/skills` page on provenancelabel.org; modular, versioned, platform-agnostic prompt files users load into their own AI; member vs. free tier; `ai_instructions/` is already the skills library
 - [ ] Cancellation handling — `customer.subscription.deleted` deactivates member
 - [ ] Add Claude Project link to `/join` page
 - [ ] ChatGPT Custom GPT — equivalent of Claude Project for GPT users
