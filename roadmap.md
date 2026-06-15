@@ -62,14 +62,35 @@ Last updated: 2026-03-08
 ## Future
 
 ### PLGen Skills System
-A modular, user-facing skills distribution layer for the PLGen CLI suite.
+A community skills directory — the Obsidian model for AI collaboration transparency.
 
-- [ ] `/skills` page on provenancelabel.org — lists available commands, what each does, one-click copy or download
+PLGen owns the standard and the registry, not the prompts. Anyone who understands
+the PLGen skill format can write and publish a skill. provenancelabel.org/skills
+becomes a community directory, not a page Shelton maintains alone.
+
+**Core infrastructure:**
+- [ ] `/skills` page on provenancelabel.org — community directory, searchable, rated
 - [ ] Skills are platform-agnostic prompt files (Claude, GPT, others)
+- [ ] Open submission — anyone can contribute a skill
 - [ ] Users load only what they need — `plgen generate` to start, `plgen coach` when ready
-- [ ] Member vs. free tier skills — personalized features (e.g. coach baseline) stay member-only
 - [ ] Versioned skill files — users can pin to a version or pull latest
-- [ ] Skills library lives in `ai_instructions/` in this repo — already the de facto structure
+- [ ] Paid path stays narrow: registry sync, personalization, verified skills — not the ecosystem
+
+**Community skill examples (we can't predict what gets built):**
+- [ ] `plgen coach --academic` — discipline-aware coaching for students
+- [ ] `plgen coach --journalism` — source attribution and AI disclosure for reporters
+- [ ] Domain variants, language adaptations, workflow integrations
+
+**Institutional use case — universities and professors:**
+The most powerful surface we can't fully design ourselves. A professor or university
+could publish a PLGen skill scoped to their course, department, or field — defining
+what responsible AI use looks like for their students specifically. A biology lab and
+a creative writing program have completely different standards. PLGen provides the
+framework; the institution provides the context.
+
+- [ ] Skill format spec — documented standard for third-party skill authors
+- [ ] Institutional skill namespace (e.g. `plgen coach --mit-sloan`, `plgen coach --uw-journalism`)
+- [ ] Skill submission and review process for the community directory
 
 ### Other
 - [ ] Proper auth — email + password replacing API key paste
